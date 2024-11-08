@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	result := medium.LongestPalindrome("xaabacxcabaaxcabaax")
-	fmt.Println("Longest palindrome:", result)
+	result := medium.Convert("PAYPALISHIRING", 4)
+	fmt.Println(result)
 }
